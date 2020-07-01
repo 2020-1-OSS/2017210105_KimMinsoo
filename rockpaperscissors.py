@@ -16,3 +16,11 @@ elif player == "Rock":
         print("You win!")
     else:
         print("You lose!")
+
+elif player == "Paper":
+    if computer == "Rock":
+        print("You win!")
+    else:
+        print("You lose!")
+
+
