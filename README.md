@@ -1,1 +1,1 @@
-# 2017210105_KimMinsoo
+# Rock-Paper-Scissors Game
