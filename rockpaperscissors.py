@@ -1,31 +1,35 @@
 # list of play options
 play = ["Rock", "Paper", "Scissors"]
-# assign a random play to the computer
+
+#st of messages
+messages = ["Tie!", "You win!", "You lose!"]
 computer = "Rock"
 print('Computer: {}'.format(computer))
+
 # get the user input
 player = "Paper"
 print('Player: {}'.format(player))
+
 # tie
 if player == computer:
-        print("Tie!")
+        print(messages[0])
 
 # rock
 elif player == "Rock":
     if computer == "Scissors":
-        print("You win!")
+        print(messages[1])
     else:
-        print("You lose!")
+        print(messages[2])
 
 elif player == "Paper":
     if computer == "Rock":
-        print("You win!")
+        print(messages[1])
     else:
-        print("You lose!")
+        print(messages[2])
 
 elif player == "Scissors":
     if computer == "Paper":
-        print("You win!")
+        print(messages[1])
     else:
-        print("You lose!")
+        print(messages[2])
 
